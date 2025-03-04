@@ -31,7 +31,11 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-          <p>&copy; {new Date().getFullYear()} Personal Journey. All rights reserved.</p>
+          <p className="mb-2">&copy; {new Date().getFullYear()} Personal Journey. All rights reserved.</p>
+          <div className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-4">
+            <p className="text-sm bg-gray-800 px-3 py-1 rounded-full inline-block">Matric Number: 236598</p>
+            <p className="text-sm bg-gray-800 px-3 py-1 rounded-full inline-block">Ayinla Oluwasemilogo.Isaac</p>
+          </div>
         </div>
       </div>
     </footer>
